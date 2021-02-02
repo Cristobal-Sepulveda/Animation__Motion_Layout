@@ -25,10 +25,18 @@
             app:duration="3000">
 
         <!-- Fix OnSwipe by changing touchAnchorSide -->
+        <!-- Using dragDirection to control the direction of drag tracking -->
+        <!-- TODO 1.15: To make this animation follow touch events, change the touchAnchorSide to right-->
+        <!--<OnSwipe
+            app:touchAnchorId="@id/moon"
+            app:touchAnchorSide="right"
+            />-->
+        <!-- TODO 1.16: Update OnSwipe will to track the moon's motion correctly-->
         <OnSwipe
-                app:touchAnchorId="@id/moon"
-                app:touchAnchorSide="bottom"
-        />
+            app:touchAnchorId="@id/moon"
+            app:touchAnchorSide="bottom"
+            app:dragDirection="dragRight"/>
+
 
 
         <KeyFrameSet>

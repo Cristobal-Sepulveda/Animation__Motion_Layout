@@ -15,7 +15,8 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools" package="com.google.samples.motionlayoutcodelab">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.google.samples.motionlayoutcodelab">
 
     <application
             android:allowBackup="true"
